@@ -1,0 +1,26 @@
+The command CD\ takes you to the top of the directory tree.
+
+cd\
+
+To take you to other folder
+
+C:\>cd windows\system32
+
+Back by 1 folder
+
+cd..
+
+To access certain drive
+
+C:\>d:
+
+To change the drive and the directory at the same time
+
+C:\>cd/D c:\Windows
+
+
+http://www.7tutorials.com/command-prompt-how-use-basic-commands
+
+
+
+
