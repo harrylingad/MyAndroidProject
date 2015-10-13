@@ -1,3 +1,8 @@
 
-How to play ps3 to laptop
+
+
+HOW TO INTEGRATE ANDROIDSTUDIO AND GITHUB
+http://stackoverflow.com/questions/16644946/how-do-you-sync-projects-to-github-with-android-studio
+
+HOW TO PLAY PS3 ON LAPTOP
 http://www.lazada.com.ph/usb-video-audio-capture-539228.html?wt_af=ph.affiliate.criteo.lf.visitorsdisplay.xxpo0000srcvt0000&utm_source=criteo&utm_medium=cpcmedia&utm_campaign=lfvisitorsdisplay&utm_term=xxpo0000srcvt0000
