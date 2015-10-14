@@ -1,0 +1,81 @@
+
+http://www.codeproject.com/Articles/457305/Basic-Git-Command-Line-Reference-for-Windows-Users
+
+Syntax:  
+cd [options] [<directory>]
+=======================================================================================================
+
+Navigate to the Home Directory (Default folder for the current user):
+$ cs
+
+
+Navigate to a specific folder in the file system:
+
+$ cd /c/SomeFolder/SomeOtherFolder/
+ 
+
+Navigate to a specific folder in the file system (if there are spaces in the directory path):
+
+$ cd “/c/Some Folder/Some Other Folder/”
+ 
+
+Go back to the previous Location:
+
+$ cd -
+ 
+
+Move Up One Directory Level:
+
+$ cd ..
+
+=======================================================================================================
+
+
+
+
+Syntax:
+ls [options]
+
+Options:
+-1 = List 1 item per line
+-r = Reverse the sort order
+-a  = Show Everything, including hidden items
+-d = list only directories
+-l = (letter L, lowercase) = Use a long listing format (more info per item, arranged in columns, vertical listing)
+======================================================================================================
+
+List the contents of the current directory (folder): 
+
+$ ls 
+The above will display the contents of the current directory as a horizontal list. Not real convenient.
+
+ 
+
+List the contents of the current directory, one item per line: 
+
+$ ls -1
+That’s better. Note, however, that we can only differentiate files from subdirectories based upon the file extension.
+
+ 
+
+List only the subdirectories (folders) within the current directory:
+
+$ ls –d */
+List everything in long form, vertically:
+
+$ ls –al
+The above gives a swath of information. Also, subdirectories are differentiated by the first column (begin with drwxr instead of -rw)
+
+ 
+
+List all contents, including subdirectory contents, single item per line: 
+
+$ ls -1 *
+ 
+
+
+
+
+
+
+
