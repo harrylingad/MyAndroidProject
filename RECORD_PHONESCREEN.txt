@@ -1,0 +1,41 @@
+Go to adb.exe folder
+
+Mine is,
+	C:\Eclipse\sdk\platform-tools
+	
+then press shift, then right click
+
+press
+	open command window here
+	
+	
+TO START RECORDING
+
+	adb shell screenrecord /sdcard/example.mp4
+	
+TO STOP RECORDING 
+	
+	press Ctrl C while in the terminal
+	
+	
+TO ADJUST SIZE
+
+	adb shell screenrecord --size 1280x720 /sdcard/example.mp4
+	
+	
+TO ADJUST BITRATE
+
+	adb shell screenrecord --bit-rate 4 /sdcard/example.mp4
+	(default is 4Mbps)
+	
+	
+ASK FOR HELP
+
+	adb shell screenrecord --help
+	
+	
+	
+
+	
+	
+	
