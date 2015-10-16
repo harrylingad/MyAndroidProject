@@ -22,6 +22,10 @@ TO ADJUST SIZE
 
 	adb shell screenrecord --size 1280x720 /sdcard/example.mp4
 	
+TO ADJUST A SCREEN IN LANDSCAPE MODE SET THE WIDTH AND HEIGHT EQEAL
+	
+	adb shell screenrecord --size 1280x1280 /sdcard/example.mp4
+	
 	
 TO ADJUST BITRATE
 
