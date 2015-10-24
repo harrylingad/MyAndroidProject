@@ -71,8 +71,47 @@ The above gives a swath of information. Also, subdirectories are differentiated 
 List all contents, including subdirectory contents, single item per line: 
 
 $ ls -1 *
+
+
+
+=====================================================================================================================
+
+Git Bash: Remove Files (rm)
+
+Syntax: 
+
+rm [options] -<FileName> 
+
+Options:  
+
+-I (or --interactive) = Prompt before removal
+
+-v (or --verbose) = Explain what is being done
+ 
+===========================================================
+Remove the specified file from the current directory (no spaces): 
+
+Hide   Copy Code
+$ rm DeleteFileName
  
 
+Remove the specified file from the current directory (with spaces): 
+
+Hide   Copy Code
+$ rm “Delete File Name”
+ 
+
+Prompt for confirmation before remove the specified file from the current directory (no spaces):
+
+Hide   Copy Code
+$ rm -i DeleteFileName
+ 
+
+Removes the specified file and reports what was done in the console window: 
+
+Hide   Copy Code
+$ rm -v DeleteFileName
+ 
 
 
 
