@@ -1,5 +1,18 @@
+GOOGLE MAP TUTORIAL
+https://developers.google.com/maps/documentation/android-api/start
 
-harryTest
+Displaying a Location Address
+http://developer.android.com/training/location/receive-location-updates.html#updates
+
+Creating and Monitoring Geofences
+http://developer.android.com/training/location/geofencing.html#RequestGeofences
+
+
+
+
+RECORDING SCREEN TUTORIAL
+http://www.howtogeek.com/176956/how-to-record-your-android-devices-screen-with-android-4.4-kitkat/
+
 
 HOW TO INTEGRATE ANDROIDSTUDIO AND GITHUB
 http://stackoverflow.com/questions/16644946/how-do-you-sync-projects-to-github-with-android-studio
