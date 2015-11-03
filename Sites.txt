@@ -7,6 +7,12 @@ http://developer.android.com/training/location/receive-location-updates.html#upd
 Creating and Monitoring Geofences
 http://developer.android.com/training/location/geofencing.html#RequestGeofences
 
+ADDING MAPS
+http://developer.android.com/training/maps/index.html#features
+
+https://tsicilian.wordpress.com/2013/06/25/android-geofencing-with-google-maps/
+http://android-er.blogspot.com/2013/01/google-maps-android-api-v2-example.html
+
 
 
 
