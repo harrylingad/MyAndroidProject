@@ -1,0 +1,42 @@
+ffmpeg -i C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\outputVideo.mp4 -c:v libx264 -b:v 1000k -crf 10 C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\reduced.mp4
+
+ffmpeg -i sample.mp4 -c:v libvpx -b:v 2000k -crf 10 -ss 00:0044 to -t 00:00:47 output.mpeg
+
+>EXTRACT MP3 FROM VIDEO
+-- audio transcode from AAC to MP3
+
+ffmpeg -i imagine.mp4 imagine.mp3
+
+>TO CHECK THE AUDIO FORMAT OF YOUR VIDEO
+ffprobe -i C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\outputVideo.mp4
+
+COPY AUDIO FROM VIDEO (AAC format)
+ffmpeg -i imagine.mp4 -vn -c:a copy imagine.aac
+
+REDUCE AUDIO BITRATE
+ffmpeg -i imagine.aac -ab 96k imagine96.aac
+
+-ab 96k == audio bitrate 96kbps
+
+
+HOW TO MERGE VIDEOS
+--first create a textfile that has the file location of the videos you want in merge
+
+	SAMPLE:
+		file 'c:\videotobemerge\video1.mp4'
+		file 'c:\videotobemerge\video2.mp4'
+
+ffmpeg -f concat -i C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\sample_videos.txt -c copy C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\outputVideo.mp4
+
+
+
+
+-i == input
+-vn == video.none
+-c:a == copy audio in its input codec
+
+
+
+
+
+

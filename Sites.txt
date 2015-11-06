@@ -1,3 +1,7 @@
+FFMPEG TUTORIAL
+https://trac.ffmpeg.org/wiki/Encode/H.264
+
+
 GOOGLE MAP TUTORIAL
 https://developers.google.com/maps/documentation/android-api/start
 
