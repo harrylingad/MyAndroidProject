@@ -1,0 +1,30 @@
+
+ffmpeg -i input.mp4 -c:v libx264 -b:v 1000k -crf 10 output.mp4
+ffmpeg -i input.mp4 -c:v libx264 -b:v 1000k -crf 10 -ss 00:0044 to -t 00:00:47 output.mp4
+
+ADD THIS TO GET ONLY PART OF THE VIDEO
+-ss 00:0044 to -t 00:00:47
+
+CONSTANT RATE FACTOR(CRF)
+-crf 10
+
+	VALUE: 0 - 51
+	0 = lossless
+	23 = default
+	51 = worst possible
+	
+PRESET
+-preset slow
+
+	ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow
+	
+	
+MERGE 
+ffmpeg -f concat -i C:\sample_videos.txt -c copy output.mp4
+
+	
+	
+
+
+
+
