@@ -2,6 +2,11 @@
 ffmpeg -i input.mp4 -c:v libx264 -b:v 1000k -crf 10 output.mp4
 ffmpeg -i input.mp4 -c:v libx264 -b:v 1000k -crf 10 -ss 00:0044 to -t 00:00:47 output.mp4
 
+ABR (Average Bit Rate)
+ffmpeg -i input -c:v libx264 -b:v 1000k output.mp4
+
+
+
 ADD THIS TO GET ONLY PART OF THE VIDEO
 -ss 00:0044 to -t 00:00:47
 

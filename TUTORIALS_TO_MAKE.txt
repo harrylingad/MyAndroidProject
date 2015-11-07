@@ -1,0 +1,4 @@
+
+How to install playstore in genymotion
+
+http://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/en
