@@ -1,6 +1,8 @@
 FFMPEG TUTORIAL
 https://trac.ffmpeg.org/wiki/Encode/H.264
 
+GAPPS DOWNLOAD
+http://www.androidrootz.com/2015/03/download-android-44x-kitkat-pa-gapps.html
 
 GOOGLE MAP TUTORIAL
 https://developers.google.com/maps/documentation/android-api/start
