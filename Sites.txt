@@ -4,6 +4,9 @@ https://trac.ffmpeg.org/wiki/Encode/H.264
 GAPPS DOWNLOAD
 http://www.androidrootz.com/2015/03/download-android-44x-kitkat-pa-gapps.html
 
+HOW TO FLASH USING ADB ONLY WITH OUT DRAG AND DROP
+http://stackoverflow.com/questions/27625746/how-to-flash-zip-on-genymotion-programatically
+
 GOOGLE MAP TUTORIAL
 https://developers.google.com/maps/documentation/android-api/start
 
