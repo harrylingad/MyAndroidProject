@@ -1,0 +1,36 @@
+
+HOW TO FLASH ZIP FILE IN GENYMOTION W/O DRAG AND DROP
+
+http://www.androidrootz.com/2015/03/download-android-44x-kitkat-pa-gapps.html
+
+http://forum.xda-developers.com/showthread.php?t=2528952%5d
+
+EXPLAINATION
+http://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/en
+
+192.168.16.102:5555
+
+1. Download the translator
+2. Download the gapps
+3. Copy to sdcard/download/ the translator and gapps
+
+		adb -s 192.168.56.102:5555 push pa_gapps-modular-full-4.4.4-20150308-signed.zip /sdcard/Download/
+		
+4. flash the translator
+		
+		adb -s 192.168.56.102:5555 shell flash-archive.sh /sdcard/Download/Genymotion-ARM-Translation_v1.1.zip
+		
+5. reboot the genymotion emulator
+
+		adb -s 192.168.56.102:5555 reboot recovery
+		
+6. flash the gapps
+
+		adb -s 192.168.56.102:5555 shell flash-archive.sh /sdcard/Download/pa_gapps-modular-full-4.4.4-20150308-signed.zip
+
+7. reboot the genymotion emulator
+
+		adb -s 192.168.56.102:5555 reboot recovery
+		
+8. update the installed apps
+		
