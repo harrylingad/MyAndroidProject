@@ -1,0 +1,110 @@
+
+Today, I am going to teach you how to make a 
+SIMPLE GOOGLE MAP APPLICATION
+
+Go to File/New/New Project
+
+APPLICATION NAME
+The name of your App
+
+COMPANY DOMAIN:
+ Company domain provides a qualifier that will be appended to the package name;
+ Android Studio will remember this qualifier for each new project you create.
+
+PACKAGE NAME:
+ The package name uniquely identifies the app on the device; it is also unique in the Google Play store. 
+ This means that once you have published an app with this package name, you can never change it;
+ doing so would cause your app to be treated as a brand new app, and existing users of your app will not see the newly packaged app as an update.
+ 
+ PROJECT LOCATION:
+ Is the location where your App will be save in your computer/laptop
+ 
+ 
+1. ===============================================================================================
+Specify what platform are you building.
+
+PHONE AND TABLET
+
+	MINIMUM SDK 
+		is the minimum android version that your App will be compatible...
+		If you want your App to run on more devices, make it low as possible
+			
+WEAR 
+	are Android Apps for Google Watches
+	
+TV 
+	are Android Apps for Google TV
+	
+ANDROID AUTO
+	are Android Apps for Automobile/Car
+	
+GLASS
+	are Android Apps for Eye Glasses
+
+Our App is for Phone and Tablets so we will select Phone and Tablets
+	
+2. ==================================================================================================
+
+Because we are making a Google Map, we will choose Google Maps Activity
+so that Android Studio will generate a Application Google Map Ready...
+It will generate some requirement automatically that is for Google Map Application Only 
+so that we wont have to do that. Our work will be lessen.
+
+3. =================================================================================================
+
+ACTIVITY NAME	
+	is the name of the activity that will be launced when you open our App in the phone
+	it is the JAVA file where you will put all your codes and the functionality of your App
+	
+LAYOUT NAME	
+	is the layout where you will design the appearance of your App. 
+	
+TITLE
+	is the name of the app that will appear on the phone when you already installed it
+	
+THEN FINISH
+	
+
+4. ================================================================================================
+
+GoogleMap
+
+	This is the main class of the Google Maps Android API and is the entry point for all methods related to the map. 
+	
+OnMapReadyCallback
+	Callback interface for when the map is ready to be used.
+	
+	
+	
+	when the map is ready the OnMapReadyCallback method that will be called is
+	
+	/**
+     * Manipulates the map once available.
+     * This callback is triggered when the map is ready to be used.
+     * This is where we can add markers or lines, add listeners or move the camera. In this case,
+     * we just add a marker near Sydney, Australia.
+     * If Google Play services is not installed on the device, the user will be prompted to install
+     * it inside the SupportMapFragment. This method will only be triggered once the user has
+     * installed Google Play services and returned to the app.
+     */
+	
+	 public void onMapReady(GoogleMap googleMap)
+	
+	
+	
+
+
+
+
+
+	
+	
+	
+	
+
+ 
+ 
+
+
+
+
