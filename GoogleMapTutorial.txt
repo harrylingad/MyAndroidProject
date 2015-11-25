@@ -74,10 +74,12 @@ OnMapReadyCallback
 GoogleMap
 	This is the main class of the Google Maps Android API and
 	is the entry point for all methods related to the map.
+	So if you want the change the bearing, Zoom level, and use any method to alter the map
+	you can do that thru this map
 
 SupportMapFragment
 	This fragment is the simplest way to place a map in an application.
-	It's a wrapper around a view of a map to automatically handle the necessary life cycle needs.
+	It's a wrapper around a view of a map to automatically handle the necessary life cycle the google map sneeds.
 	
 .getMapAsync(this)
 	to acquire GoogleMap use this method
@@ -118,6 +120,16 @@ check the
 		
 		then get the GOOGLE MAPS API KEY and place it in YOUR_KEY_HERE under the google_maps_api.xml
 ================================================================================================================
+
+
+Fragment
+		 portion of user interface
+		 you can combine multiple fragment in a single activity
+		 has its own lifecycle, receives its own input events which you can add or remove while the 
+			activity is running...
+			
+		must always be embedded in an activity..
+		
 		
 		
 		
