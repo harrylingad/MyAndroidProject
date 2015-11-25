@@ -67,17 +67,22 @@ THEN FINISH
 
 4. ================================================================================================
 
-GoogleMap
 
-	This is the main class of the Google Maps Android API and is the entry point for all methods related to the map. 
-	
 OnMapReadyCallback
-	Callback interface for when the map is ready to be used.
+	Callback interface that returns a method(OnMapReadyCallback) when the map is ready to be used.
+
+GoogleMap
+	This is the main class of the Google Maps Android API and
+	is the entry point for all methods related to the map.
+
+SupportMapFragment
+	This fragment is the simplest way to place a map in an application.
+	It's a wrapper around a view of a map to automatically handle the necessary life cycle needs.
 	
+.getMapAsync(this)
+	to acquire GoogleMap use this method
 	
-	
-	when the map is ready the OnMapReadyCallback method that will be called is
-	
+====================================================================================================================
 	/**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -89,6 +94,36 @@ OnMapReadyCallback
      */
 	
 	 public void onMapReady(GoogleMap googleMap)
+	 {
+		mMap = googleMap;
+
+        // Add a marker in Sydney and move the camera
+        LatLng sydney = new LatLng(-34, 151);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+	 }
+	 
+=================================================================================================================
+	 
+TO GET GOOGLEMAP API KEY
+		go to google_maps_api.xml under the VALUES folder
+
+		here we will get the magic_link to get our GOOGLE MAPS API KEY
+
+		place the magic_link to your browser
+		
+check the 
+		I agree that my use of any services and related APIs is subject to my compliance with the applicable Terms of Service. checkbox
+		then press Agree and continue
+		
+		then get the GOOGLE MAPS API KEY and place it in YOUR_KEY_HERE under the google_maps_api.xml
+================================================================================================================
+		
+		
+		
+		
+		
+	 
 	
 	
 	
