@@ -13,3 +13,5 @@ git rm file1.txt
 DISPLAY THE FILES IN YOUR REPO
 git ls-files 
 
+TO DELETE A FOLDER
+git rm -r [name of the folder]
