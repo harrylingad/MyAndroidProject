@@ -1,1 +1,36 @@
 http://www.dotafire.com/dota-2/guide/dota-2-replay-guide-182
+
+STEP 1 : HOW TO ENABLE CONSOLE IN DOTA2
+1) In steam, right click on "Dota 2" and click on properties
+2) Click on Set Launcher Options and type in: -console
+3) Press OK and enter the game, to remove the console from view press the ` key.
+
+STEP 2 : HOW TO FIND YOUR REPLAY IN DOTA 2
+Go in-game in Dota 2 > Watch Tab > Recent games > Filter list > Enter you Dota 2 in-game name then search you game that you last played > Click Detail > Download Replay.
+
+STEP 3 : HOW TO WATCH YOUR REPLAY ANYTIME WITHOUT INTERNER 
+Make sure you aready download you replay that will saved in C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta\dota\replays
+Note : Replay name was number example 414554.dem , you can rename it to any name like Razor.
+How to watch it : 1. Open Dota 2
+2. Click ` then Steam console will pop out.
+3. Type playdemo replays\Replay name
+Example : "playdemo replays\207710"
+4. Click ` again to watch you replay.
+
+===============================================================================================
+My Replay
+Make sure put my replay in C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta\dota\replays
+My replay free to download : http://www.mediafire.com/?idh03ifgu9kauw5
+
+Credits
+I research it a month ago because alot people didn't know how to watch replay in Dota 2.That why i made a guide in here.
+
+My Email is Tiong326@hotmail.com
+My Steam id is http://steamcommunity.com/id/kungyii1994/
+My Dota 2 in-game is DOTAFire | Kungyii94
+I play Dota 2 Matchmaking only in Us West and SEA server.
+
+
+
+
+
