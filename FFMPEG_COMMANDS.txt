@@ -1,6 +1,6 @@
 ffmpeg -i C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\outputVideo.mp4 -c:v libx264 -b:v 1000k -crf 10 C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\reduced.mp4
 
-ffmpeg -i sample.mp4 -c:v libvpx -b:v 2000k -crf 10 -ss 00:0044 to -t 00:00:47 output.mpeg
+ffmpeg -i sample.mp4 -c:v libvpx -b:v 2000k -crf 10 -ss 00:00:44 -t 00:00:47 output.mpeg
 
 >EXTRACT MP3 FROM VIDEO
 -- audio transcode from AAC to MP3
