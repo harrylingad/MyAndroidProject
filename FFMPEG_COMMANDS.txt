@@ -28,12 +28,76 @@ HOW TO MERGE VIDEOS
 
 ffmpeg -f concat -i C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\sample_videos.txt -c copy C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\outputVideo.mp4
 
-
-
-
 -i == input
 -vn == video.none
--c:a == copy audio in its input codec
+-c:a == copy audio in its input codec.
+
+
+==========================================================================================================================================
+
+HOW TO ADD AUDIO TO VIDEO
+
+ffmpeg -i video.mp4 -i audio.mp3 output.mp4
+
+>>> in case u want the output.mp4 to stop as soon as one of the input stops (audio/video) then use >>>>
+
+-shortest
+
+example:
+ffmpeg -i video.mp4 -i audio.mp3 -shortest output.mp4
+
+this will make sure that the output stops as and when any one of the inputs is completed.
+
+since u have asked that u want to do it with map. this is how u do it.
+
+ffmpeg -i video.mp4 -i audio.mp3 -map 0:0 -map 1:0 -shortest output.mp4
+
+now since u want to retain the audio of the video file.
+
+the solution is,
+
+
+==========================================================================================================================================
+IF YOU WANT TO ADD AUDTIO TO VIDEO AND RETAINING THE ORIGINAL SOUND OF THE VIDEO
+
+consider u want to merge audio.mp3 and video.mp4
+
+step 1) extract audio from the video.mp4
+
+ffmpeg -i video.mp4 1.mp3
+
+step 2) merge both audio.mp3 and 1.mp3
+
+ffmpeg -i audio.mp3 -i 1.mp3  -filter_complex amerge -c:a libmp3lame -q:a 4 audiofinal.mp3
+
+step 3)remove the audio from video.mp4 (this step is not required. but just to do it properly)
+
+ffmpeg -i video.mp4 -an videofinal.mp4
+
+step 4) now merge audiofinal.mp3 and videofinal.mp4
+
+ffmpeg  -i videofinal.mp4 -i audiofinal.mp3 -shortest final.mp4
+
+in the latest version of ffmpeg it will only prompt u to use '-strict -2' in case it does then use this
+
+ffmpeg  -i videofinal.mp4 -i audiofinal.mp3 -shortest -strict -2 final.mp4
+
+
+==========================================================================================================
+
+HOW TO CHANGE AUDIO VOLUME UP - DOWN 
+To turn the audio volume up or down, you may use FFmpeg's Audio Filter named ​volume, like in the following example. If we want our volume to be half of the input volume:
+
+ffmpeg -i input.wav -af "volume=0.5" output.mp3
+150% of current volume:
+
+ffmpeg -i input.wav -af "volume=1.5" output.wav
+If you are familiar with decibels you can also use dB:
+
+ffmpeg -i input.wav -af "volume=10dB" output.wav
+
+
+
 
 
 
