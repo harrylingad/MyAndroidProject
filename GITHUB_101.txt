@@ -5,6 +5,7 @@ git add Readme.txt
 git commit -m “Add Readme.txt”
 git remote add origin https://github.com/username/myproject.git
 git remote -v
+git pull origin master
 git push origin master
 
 REMOVE FILE FROM REPO
