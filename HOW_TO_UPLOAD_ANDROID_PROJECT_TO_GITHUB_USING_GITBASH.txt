@@ -1,0 +1,28 @@
+
+
+1. FIRST GO TO WWW.GITHUB.COM AND MAKE A REPOSITORY
+
+
+2. THEN YOU WILL NEED TO NAVIGATE TO THE PROJECT FOLDER IN YOUR COMPUTER USING GITBASH. WHEN YOU GET THERE YOU DO:
+
+			// git init
+
+TO INITIATES A NEW GIT REPOSITORY IN THAT DIRECTORY.
+
+3. WHEN YOU'VE DONE THAT, YOU NEED TO REGISTER THAT NEW REPO WITH A REMOTE (where you'll upload -- push -- your files to)
+	WHICH IN THIS CASE WILL BE GITHUB. YOU'LL GET THE CORRECT URL FROM YOUR REPO ON GITHUB
+
+			// git remote add origin https://github.com/[username]/[reponame].git
+
+4. YOU NEED TO ADD YOUR EXISTING FILES TO YOUR LOCAL COMMIT:
+
+			// git add .   # this adds all the files
+
+5. THEN YOU NEED TO MAKE AN INITIAL COMMIT, SO YOU DO:
+
+			// git commit -a -m "Initial commit" 		# this stages your files locally for commit. 
+											# they haven't actually been pushed yet
+								  
+6. NOW YOU'VE CREATED A COMMIT IN YOUR LOCAL REPO, BUT NOT IN THE REMOTE ONE. TO PUT IT ON THE REMOTE, YOU DO THE SECONDS LINE YOU POSTED:
+			
+			// git push -u origin --all

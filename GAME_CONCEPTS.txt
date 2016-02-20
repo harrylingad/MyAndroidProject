@@ -1,0 +1,2 @@
+1. Hero will save his girl in a period of time, if he fails, he will not be able to save her.
+	But the points he generated will be use to upgrade his skills to improve his time in the next attempt.

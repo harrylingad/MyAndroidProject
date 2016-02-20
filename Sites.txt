@@ -13,6 +13,9 @@ https://developers.google.com/maps/documentation/android-api/start
 Displaying a Location Address
 http://developer.android.com/training/location/receive-location-updates.html#updates
 
+TO BUY GAME SPRITES
+www.gameart2d.com/tileset.html
+
 Creating and Monitoring Geofences
 http://developer.android.com/training/location/geofencing.html#RequestGeofences
 
