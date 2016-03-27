@@ -1,4 +1,4 @@
-ffmpeg -i C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\outputVideo.mp4 -c:v libx264 -b:v 1000k -crf 10 C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\reduced.mp4
+﻿ffmpeg -i C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\outputVideo.mp4 -c:v libx264 -b:v 1000k -crf 10 C:\Users\ling13070503\Desktop\GoogleMapTutorial\Video\reduced.mp4
 
 ffmpeg -i sample.mp4 -c:v libvpx -b:v 2000k -crf 10 -ss 00:00:44 -t 00:00:47 output.mpeg
 
@@ -95,6 +95,11 @@ ffmpeg -i input.wav -af "volume=1.5" output.wav
 If you are familiar with decibels you can also use dB:
 
 ffmpeg -i input.wav -af "volume=10dB" output.wav
+
+
+SIMPLE CONVERT FILE FROM MKV TO MP4
+
+ffmpeg -i filename.flv -c:v libx264 -crf 19 -strict experimental filename.mp4
 
 
 
