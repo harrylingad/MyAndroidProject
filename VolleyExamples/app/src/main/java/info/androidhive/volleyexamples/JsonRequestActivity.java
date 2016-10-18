@@ -33,6 +33,16 @@ public class JsonRequestActivity extends Activity implements OnClickListener {
 	private TextView msgResponse;
 	private ProgressDialog pDialog;
 
+	private int offSet = 0;
+
+	private String testURL = "http://www.mangaeden.com/api/list/0/";
+
+	//ORIGINAL
+//	private String arrayURL = "http://api.androidhive.info/json/imdb_top_250.php?offset=\";
+
+
+	private String arrayURL = "http://api.androidhive.info/json/imdb_top_250.php?offset=\0";
+
 	// These tags will be used to cancel the requests
 	private String tag_json_obj = "jobj_req", tag_json_arry = "jarray_req";
 
@@ -69,13 +79,33 @@ public class JsonRequestActivity extends Activity implements OnClickListener {
 	private void makeJsonObjReq() {
 		showProgressDialog();
 		JsonObjectRequest jsonObjReq = new JsonObjectRequest(Method.GET,
-				Const.URL_JSON_OBJECT, null,
+				testURL, null,
 				new Response.Listener<JSONObject>() {
 
 					@Override
 					public void onResponse(JSONObject response) {
 						Log.d(TAG, response.toString());
 						msgResponse.setText(response.toString());
+
+//						JSONObject movieObj = response.getJSONObject(i);
+
+//						int rank = movieObj.getInt("rank");
+//						String title = movieObj.getString("title");
+//
+//						Movie m = new Movie(rank, title);
+//						movieList.add(0, m);
+//
+//						// updating offset value to highest value
+//						if (rank >= offSet)
+//							offSet = rank;
+
+						//AFTER FOR
+//						adapter.notifyDataSetChanged();
+
+
+						//AFTER IF CONDITION NULL
+//						swipeRefreshLayout.setRefreshing(false);
+
 						hideProgressDialog();
 					}
 				}, new Response.ErrorListener() {
@@ -90,22 +120,22 @@ public class JsonRequestActivity extends Activity implements OnClickListener {
 			/**
 			 * Passing some request headers
 			 * */
-			@Override
-			public Map<String, String> getHeaders() throws AuthFailureError {
-				HashMap<String, String> headers = new HashMap<String, String>();
-				headers.put("Content-Type", "application/json");
-				return headers;
-			}
+//			@Override
+//			public Map<String, String> getHeaders() throws AuthFailureError {
+//				HashMap<String, String> headers = new HashMap<String, String>();
+//				headers.put("Content-Type", "application/json");
+//				return headers;
+//			}
 
-			@Override
-			protected Map<String, String> getParams() {
-				Map<String, String> params = new HashMap<String, String>();
-				params.put("name", "Androidhive");
-				params.put("email", "abc@androidhive.info");
-				params.put("pass", "password123");
-
-				return params;
-			}
+//			@Override
+//			protected Map<String, String> getParams() {
+//				Map<String, String> params = new HashMap<String, String>();
+//				params.put("name", "Androidhive");
+//				params.put("email", "abc@androidhive.info");
+//				params.put("pass", "password123");
+//
+//				return params;
+//			}
 
 		};
 
@@ -122,7 +152,7 @@ public class JsonRequestActivity extends Activity implements OnClickListener {
 	 * */
 	private void makeJsonArryReq() {
 		showProgressDialog();
-		JsonArrayRequest req = new JsonArrayRequest(Const.URL_JSON_ARRAY,
+		JsonArrayRequest req = new JsonArrayRequest(arrayURL,
 				new Response.Listener<JSONArray>() {
 					@Override
 					public void onResponse(JSONArray response) {
