@@ -6,7 +6,6 @@ ABR (Average Bit Rate)
 ffmpeg -i input -c:v libx264 -b:v 1000k output.mp4
 
 
-
 ADD THIS TO GET ONLY PART OF THE VIDEO
 -ss 00:0044 to -t 00:00:47
 
@@ -27,6 +26,9 @@ PRESET
 MERGE 
 ffmpeg -f concat -i C:\sample_videos.txt -c copy output.mp4
 
+
+CONVERT VIDEO WITHOUT RE-ENCODING
+ffmpeg -i LostInTranslation.mkv -vcodec copy -acodec copy LostInTranslation.mp4
 	
 	
 
