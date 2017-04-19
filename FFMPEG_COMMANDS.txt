@@ -103,6 +103,18 @@ ffmpeg -i filename.flv -c:v libx264 -crf 19 -strict experimental filename.mp4
 
 
 
+FOR ADDING A LOGO AND PRODUCTION PICTURE
+
+
+ffmpeg -i out3.mp4 -i rockwell_bold_big.png -filter_complex "overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2:enable=between(t\,0\,10)" -codec:a copy out5.mp4
+
+ffmpeg -i output.mp4 -i rockwell_bold_small.png -filter_complex "[0:v][1:v]overlay=main_w-overlay_w-20:30" -codec:a copy out3.mp4
+
+
+ffmpeg -i axe28.mp4 -ss 00:01:35.0 -c copy -t 00:01:00.0 output.mp4
+
+
+
 
 
 
