@@ -32,6 +32,6 @@ ffmpeg -i LostInTranslation.mkv -vcodec copy -acodec copy LostInTranslation.mp4
 	
 	
 
-
+ffmpeg -i sven_36kills.mov -i rockwell_bold_small.png -filter_complex "[0:v][1:v]overlay=main_w-overlay_w-20:50" -codec:a copy out.mp4
 
 
