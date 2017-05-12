@@ -113,6 +113,27 @@ ffmpeg -i output.mp4 -i rockwell_bold_small.png -filter_complex "[0:v][1:v]overl
 
 ffmpeg -i axe28.mp4 -ss 00:01:35.0 -c copy -t 00:01:00.0 output.mp4
 
+=====================================================================================================================
+ffmpeg -i invoker_33kills.mov -i rockwell_bold_small.png -filter_complex "[0:v][1:v]overlay=main_w-overlay_w-20:50" -c copy -ss 00:00:20 -to 00:54:16 -c:v libx264 -crf 28 28.mp4
+
+
+PUT LOGO ON A VIDEO
+-i rockwell_bold_small.png -filter_complex "[0:v][1:v]overlay=main_w-overlay_w-20:50"
+
+GET A PORTION OF A VIDEO
+-c copy -ss 00:00:20 -to 00:54:16 	or     -ss 00:01:35.0 -c copy -t 00:01:00.0
+
+-to is the actual time
+-t is the duration
+
+
+
+TO LESSEN THE FILE SIZE OF A VIDEO 23 TO 51 (THE SMALLER THE CRF THE HIGHT QUALITY THE VIDEO)
+-c:v libx264 -crf 28
+
+
+
+
 
 
 
