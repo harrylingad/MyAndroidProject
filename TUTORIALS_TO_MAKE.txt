@@ -5,8 +5,13 @@ http://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/
 
 http://memoryrepairprotocol.com/?adv=y&l=n&aff_id=79244&subid=w1HUFVOQ4APB23N6HMM9VTKU&subid2=OBMemw1HUFVOQ4APB23N6HMM9VTKU
 
+https://employeehub-ph.accenture.com/ 
+
+
+
 
 TRAINING TO MAKE
+1. How to use IOS Components (TABLEVIEW, TAB VIEW, ETC...)
 1. How to add library to swift IOS Application
 2. Google Map tutorial for IOS
-3. Connecting to API tutorial in Swift
+3. Connecting to API tutorial in IOS
