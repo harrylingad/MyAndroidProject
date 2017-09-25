@@ -1,40 +1,63 @@
-public class Elevator {
-    private int floor = 0, choice1, person = 0;
+DIGITAL BENCH ATTENDANCE TRACKER
 
-    public void callFrom(int floor){
-        System.out.println("Elevator is coming");
-        goTo(floor);
-    }
+https://ts.accenture.com/sites/PDCDigital/Digital%20Bench/Lists/Digital%20Bench%20Daily%20Attendance%20Tracker/AllItems.aspx?RootFolder=%2Fsites%2FPDCDigital%2FDigital%20Bench%2FLists%2FDigital%20Bench%20Daily%20Attendance%20Tracker%2FFY17%20%2D%20Q4%20%28Jun%2DAug%29&FolderCTID=0x0120009148BF2B089F74419B3B2753B89ACBD9&View=%7BD7350A0B%2D7251%2D4D17%2D8A87%2DCBC0532DDF19%7D
 
-    public void goTo(int floor){
-        if(floor == choice1) {
-            System.out.println("Enter the elevator");
-        }
-        else if(floor > choice1) {
-            elevatorDown();
-        }
 
-        else if(floor < choice1){
-            elevatorUp();
-        }
-    }
 
-    private void elevatorUp() {
-        System.out.println("The elevator is on it's way up...");
 
-        for (person = choice1; choice1>=floor; floor++)
 
-            System.out.println(floor);
 
-        System.out.println("The elevator has arrived");
-    }
 
-    private void elevatorDown() {
-        System.out.println("The elevator is on it's way down...");
-        for (person = choice1; choice1<=floor; floor--)
+-1. Hello World
+0. Life Cycle
+1. How to use IOS Components (TABLEVIEW, TAB VIEW, ETC...)
+2. How to add library to swift IOS Application
+3. Connecting to API tutorial in IOS (using Alamofire)  
+4. Google Map tutorial for IOS
+5. FireBase
+6. How to use PUBNUB library 
+7. SnapKit
+8. Design Pattern ??
+9. FB
+10. iOS AutoLayout
+11. Core Data
+12. Protocols
+13. Push Notif
+14. UserDefaults
+15. Camera
+17.  
+ 
+ 
+ 
+ jrektabasa@gmail.com
+taba14075246\
 
-            System.out.println(floor);
+4.26Fc
 
-        System.out.println("The elevator has arrived");
-    }
-}
+Kung naa nakoy mac:
+https://in.accenture.com/mycomputer/mac-url-based-configuration-process/  
+
+
+
+
+1. make new emulator api 22
+2. ibalik sa tab view paghuman ug add subject or withdraw.
+3. butangan ug confirmation dialog ang withdraw
+
+
+cooper vision
+
+contact lens
+japan korea
+
+japan release next korean release
+ iicentivise the consumer - gumagamit ng products
+customer - retailer  executive EO optical
+
+gusto eincentivise is consumer and customer in a form of point like coupon, punta points in japan
+provide loyalty program
+
+backend team
+mobile team
+portal team divided in 3 consumer, costumer portal
+4.5
