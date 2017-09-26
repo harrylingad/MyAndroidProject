@@ -61,3 +61,7 @@ backend team
 mobile team
 portal team divided in 3 consumer, costumer portal
 4.5
+
+
+How to use target
+https://www.appcoda.com/using-xcode-targets/
