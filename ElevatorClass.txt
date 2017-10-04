@@ -18,6 +18,13 @@ AVECTO DEFENDPOINT CHECK
 429
 443
 
+For 55 – I’m was able to proceed as expected in the mobile application
+
+For 395 – We are displaying the prefecture but it was the “Romanji” version. This needs to fix
+
+@Edera, Genie Mae L. L. and @Lingad, Harry C. – Please check 500, 501, 502 as this also affects iOS. Then check 429 and 423. Let me know if you have any questions
+
+
 
 -1. Hello World
 0. Life Cycle
