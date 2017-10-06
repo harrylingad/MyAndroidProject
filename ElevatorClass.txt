@@ -16,6 +16,12 @@ For 395 – We are displaying the prefecture but it was the “Romanji” versio
 
 @Edera, Genie Mae L. L. and @Lingad, Harry C. – Please check 500, 501, 502 as this also affects iOS. Then check 429 and 423. Let me know if you have any questions
 
+
+
+CV Error: Optional(Alamofire.AFError.responseValidationFailed(Alamofire.AFError.ResponseValidationFailureReason.unacceptableStatusCode(400)))
+Data: {"transactionId":"0000000000073039123","resultCode":"1","errorManagement":{"errorCode":"CCOMMERCE_01.000.002","errorDescription":"Invalid parameter 'MSISDN already waiting for pin'."}}
+Error in Post: Invalid Parameter Entered
+
 CCOMMERCE_03.219.002=ExternalId already in use
 CCOMMERCE_03.219.003=ExternalId already waiting for pin
 CCOMMERCE_03.219.004=MSISDN currently unavailable
