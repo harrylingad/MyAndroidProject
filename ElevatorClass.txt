@@ -8,22 +8,30 @@ AVECTO DEFENDPOINT CHECK
 
 Branch "dev_release" is already up-to-date with branch "harry_10/05/2017" in repository "cvios".
 
-265
-472
-494
-506
-507
-500
-501
-502
-429
-443
+
 
 For 55 – I’m was able to proceed as expected in the mobile application
 
 For 395 – We are displaying the prefecture but it was the “Romanji” version. This needs to fix
 
 @Edera, Genie Mae L. L. and @Lingad, Harry C. – Please check 500, 501, 502 as this also affects iOS. Then check 429 and 423. Let me know if you have any questions
+
+CCOMMERCE_03.219.002=ExternalId already in use
+CCOMMERCE_03.219.003=ExternalId already waiting for pin
+CCOMMERCE_03.219.004=MSISDN currently unavailable
+CCOMMERCE_03.219.005=Email currently unavailable
+ 
+For CCOMMERCE_03.219.003, can I put “20秒ほどお待ちいただいてから再度お試しください。”as stated in mantis defect 441
+
+
+
+CCOMMERCE_01.000.002
+ 
+
+Invalid parameter 'MSISDN currently unavailable'."
+
+"CCOMMERCE_01.000.002" = "Invalid Parameter Entered";
+
 
 
 
