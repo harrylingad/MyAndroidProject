@@ -2,43 +2,9 @@ DIGITAL BENCH ATTENDANCE TRACKER
 
 https://ts.accenture.com/sites/PDCDigital/Digital%20Bench/Lists/Digital%20Bench%20Daily%20Attendance%20Tracker/AllItems.aspx?RootFolder=%2Fsites%2FPDCDigital%2FDigital%20Bench%2FLists%2FDigital%20Bench%20Daily%20Attendance%20Tracker%2FFY17%20%2D%20Q4%20%28Jun%2DAug%29&FolderCTID=0x0120009148BF2B089F74419B3B2753B89ACBD9&View=%7BD7350A0B%2D7251%2D4D17%2D8A87%2DCBC0532DDF19%7D
 
-ASSET DATA VALIDATION
-PATCHING CHECK
-AVECTO DEFENDPOINT CHECK
-
-Branch "dev_release" is already up-to-date with branch "harry_10/05/2017" in repository "cvios".
 
 
-
-For 55 – I’m was able to proceed as expected in the mobile application
-
-For 395 – We are displaying the prefecture but it was the “Romanji” version. This needs to fix
-
-@Edera, Genie Mae L. L. and @Lingad, Harry C. – Please check 500, 501, 502 as this also affects iOS. Then check 429 and 423. Let me know if you have any questions
-
-
-
-CV Error: Optional(Alamofire.AFError.responseValidationFailed(Alamofire.AFError.ResponseValidationFailureReason.unacceptableStatusCode(400)))
-Data: {"transactionId":"0000000000073039123","resultCode":"1","errorManagement":{"errorCode":"CCOMMERCE_01.000.002","errorDescription":"Invalid parameter 'MSISDN already waiting for pin'."}}
-Error in Post: Invalid Parameter Entered
-
-Response status code unacceptable:400
-
-CCOMMERCE_03.219.002=ExternalId already in use
-CCOMMERCE_03.219.003=ExternalId already waiting for pin
-CCOMMERCE_03.219.004=MSISDN currently unavailable
-CCOMMERCE_03.219.005=Email currently unavailable
- 
-For CCOMMERCE_03.219.003, can I put “20秒ほどお待ちいただいてから再度お試しください。”as stated in mantis defect 441
-
-
-
-CCOMMERCE_01.000.002
- 
-
-Invalid parameter 'MSISDN currently unavailable'."
-
-"CCOMMERCE_01.000.002" = "Invalid Parameter Entered";
+https://innersource.accenture.com/projects/TAFE/repos/sms/browse 
 
 
 
