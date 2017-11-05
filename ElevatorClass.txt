@@ -3,31 +3,32 @@ DIGITAL BENCH ATTENDANCE TRACKER
 https://ts.accenture.com/sites/PDCDigital/Digital%20Bench/Lists/Digital%20Bench%20Daily%20Attendance%20Tracker/AllItems.aspx?RootFolder=%2Fsites%2FPDCDigital%2FDigital%20Bench%2FLists%2FDigital%20Bench%20Daily%20Attendance%20Tracker%2FFY17%20%2D%20Q4%20%28Jun%2DAug%29&FolderCTID=0x0120009148BF2B089F74419B3B2753B89ACBD9&View=%7BD7350A0B%2D7251%2D4D17%2D8A87%2DCBC0532DDF19%7D
 
 
+ //: Playground - noun: a place where people can play
 
-https://innersource.accenture.com/projects/TAFE/repos/sms/browse 
+import UIKit
+
+var components = DateComponents()
+
+components.day = 1
+components.month = 11
+components.year = 2017
+components.hour = 4
+components.minute = 0
+components.timeZone = TimeZone(abbreviation: "JST")
+
+var cal = Calendar.current
+let eventDate =  cal.date(from: components)!
+
+let te = TimeZone(abbreviation: "JST")
+let eventGMT = te?.abbreviation(for: eventDate)
 
 
 
+let localTimezone = NSTimeZone.local
+let localGMT = localTimezone.abbreviation(for: eventDate)
 
--1. Hello World
-0. Life Cycle
-1. How to use IOS Components (TABLEVIEW, TAB VIEW, ETC...)
-2. How to add library to swift IOS Application
-3. Connecting to API tutorial in IOS (using Alamofire)  
-4. Google Map tutorial for IOS
-5. FireBase
-6. How to use PUBNUB library 
-7. SnapKit
-8. Design Pattern ??
-9. FB
-10. iOS AutoLayout
-11. Core Data
-12. Protocols
-13. Push Notif
-14. UserDefaults
-15. Camera
-17.  
- 
+
+
  
  
  jrektabasa@gmail.com
